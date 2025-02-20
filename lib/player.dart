@@ -8,13 +8,13 @@ class Player extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       alignment: Alignment(playerX, 1),
-      child: Container(
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(10),
-          color: Colors.deepPurple,
+      child: SizedBox(
+        width: 150,
+        height: 150,
+        child: Image.asset(
+          'images/rabbit_wo.png', 
+          fit: BoxFit.contain,
         ),
-        width: 50,
-        height: 50,
       ),
     );
   }
