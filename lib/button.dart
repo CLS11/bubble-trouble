@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 class Button extends StatelessWidget {
   const Button({required this.icon, super.key, this.function});
   final IconData icon;
-  final dynamic function;
+  final VoidCallback? function;
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: function as GestureTapCallback,
+      onTap: function ,
       child: Center(
         child: Container(
           decoration: BoxDecoration(
