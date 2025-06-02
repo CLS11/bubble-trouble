@@ -1,5 +1,21 @@
-# BUBBLE TROUBLE
+# Bubble Trouble
 
-Bubble trouble game illustrating the different features of flutter.
+A fun and engaging bubble-popping game built with Flutter. Pop the bubbles before they overwhelm the screen!
 
-Following link has been referred for this project: https://www.youtube.com/watch?v=ZBLOxhiym7k&list=PLlvRDpXh1Se6kipeBLiF1xByAEmxYie6J&index=2
+---
+
+## Features
+
+- Simple and addictive gameplay  
+- Tap bubbles to pop them before they fill the screen  
+- Score tracking and increasing difficulty  
+- Smooth animations and responsive controls  
+
+---
+
+## Tech Stack
+
+- Flutter & Dart  
+- Stateful widgets for game logic and UI updates  
+- Custom animations for bubble effects  
+
